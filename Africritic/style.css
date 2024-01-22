@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,500&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Barlow;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navitem {
+    display: inline-block;
+    justify-content: space-between;
+    font-family: Barlow;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 19px 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navlist {
+    padding: 0;
+    margin: 0;
+}
+
+
+.title-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#film-tv, #Gaming, #Music, #Tech {
+ padding: 0 2%;
+ font-size: 1rem;
+ align-items: center;
+ justify-content: space-evenly;
+ 
+}
+
+footer {
+
+    display: grid;
+    height: 200px;
+    padding: 0;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    width: 100%;
+
+
+}
+
+#movie-list {
+  
+    padding: 0 35px;
+    text-align: left;
+    width: 20%;
+
+}
+
+.title-header {
+    font-weight: 500;
+}
+
+.poster {
+    padding-top: 25px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+h2 {
+    padding-left: 30px;
+}
+
+.trailer {
+    background-color: black;
+    color: white;
+    width: 200px;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+.trailer:hover {
+    cursor: pointer;
+}
+
+.section-divider {
+    margin: 50px 0;
+}
+
+.social {
+    display: block;
+    padding: 10px;
+    justify-content: center;
+}
+
+.name, .email, .message, .number {
+    margin: 7px 0;
+    width: 200px;
+}
+
+.reach-out {
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.socials {
+
+    justify-content: center;
+    position: relative;
+    padding: 25% 25%;
+ 
+    
+}
+
+#contact  a{
+    padding-top: 20px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+footer p {
+ display: flex;
+ justify-content: center;
+}
+
+.copyright {
+
+    display: flex;
+    height: 20px;
+
+}
+
+.movie-list .Plot {
+    height: 200px;
+}
+
+#movie-list {
+    display: inline-block;
+}
+
+
+.about-item {
+    height: 225px;
+}
+
+.item-cast {
+    height: 80px;
+}
+
+.item-rating {
+    height: 1rem;
+    padding-bottom: 8px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+#film-tv, #Gaming, #Music, #Tech {
+    padding: 0 2%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+        
+    }
+
+.header {
+        
+    height: fit-content;
+    background-color: black;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+
+}
+ 
+.navitem {
+    display: inline-flex;
+    justify-content: flex-start;
+    font-family: Barlow;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 19px 20px;
+    color: red;
+    
+}
+
+.navlist {
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+ 
+ 
+    #movie-list {
+    width: fit-content;
+ }
+
+ .about-item {
+    height: fit-content;
+
+}
+.poster {
+    padding-top: 25px;
+    border-radius: 5px;
+    width: 275px;
+    height: 415px;
+
+}
+
+.about-item {
+    display: none;
+}
+.trailer {
+    padding-top: 5px;
+}
+
+.item-rating {
+    height: 1rem;
+    padding-bottom: 8px;
+}
+
+.trailer {
+    background-color: black;
+    color: white;
+    width: 275px;
+    font-size: 1rem;
+    border-radius: 5px;
+
+}
+
+nav (
+
+)
+
+  }
